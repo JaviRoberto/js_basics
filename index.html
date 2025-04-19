@@ -9,21 +9,21 @@
 <body>
     <form id="calculator"> 
 
-        <label for="first_number">Enter the first number:</label>
+        <label for="first_number">Enter numbers and select the operator</label>
         <input type="text" id="first_number" name="first_number"required></b>
-        <select id = "operation"> 
+        <select id = "operation">
             <option value="add">+</option>
             <option value="subtract">-</option>
             <option value="mutliply">x</option>
-            <option value="devide">/</option>
-        <label for="second_number">Enter the second number:</label>
+            <option value="devide">/</option></select>
+        <label for="second_number">
         <input type="text" id="second_number" name="second_number"required></b>
         <button type="submit">submit</button>
     </form>
-    <h3><span id ="formula"></span></h3>
+    <p><span id ="formula"></span></p>
 
     <p><span id="result_display"></span></p>
-    <h1><span id="results"></span></h1>
+    <h><span id="results"></span></h1>
 
 
     <script src=index.js></script>
