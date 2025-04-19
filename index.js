@@ -13,19 +13,19 @@ document.addEventListener('DOMContentLoaded',function(){
         
         switch (operator){
             case 'add': 
-                formuala_string = first_number + " and " + second_number + " equal..."; 
+                formuala_string = first_number + " and " + second_number + " equals..."; 
                 result_number = first_number + second_number; 
                 break; 
             case 'subtract': 
-                formuala_string = first_number + " minus " + second_number + " equal..."; 
+                formuala_string = first_number + " minus " + second_number + " equals..."; 
                 result_number = first_number - second_number; 
                 break; 
             case 'mutliply': 
-                formuala_string = first_number + " mutliplied by " + second_number + " equal..."; 
+                formuala_string = first_number + " mutliplied by " + second_number + " equals..."; 
                 result_number = first_number * second_number; 
                 break;
-            case 'devide': 
-                formuala_string = first_number + " divided by " + second_number + " equal..."; 
+            case 'divide': 
+                formuala_string = first_number + " divided by " + second_number + " equals..."; 
                 result_number = first_number / second_number; 
                 break; 
             default: 

@@ -1,0 +1,17 @@
+body{
+    background-color: beige;
+}
+[type=""]
+
+h3{
+    color: rgb(109, 61, 150);
+}
+h1{ color: blue}
+
+input{
+    width: 10%; 
+    padding: 12px 20x; 
+    margin: 8px 0; 
+    box-sizing: border-box;
+
+}
