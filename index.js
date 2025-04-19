@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded',function(){
         
         switch (operator){
             case 'add': 
-                formuala_string = first_number + " and " + second_number + " equals..."; 
+                formuala_string = first_number + " plus " + second_number + " equals..."; 
                 result_number = first_number + second_number; 
                 break; 
             case 'subtract': 
