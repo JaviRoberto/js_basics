@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded',function(){
                 result_text ="Error"
                 break;
             
+                
   
         }
         document.getElementById("results").textContent = (result_text) 
