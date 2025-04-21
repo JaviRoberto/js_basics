@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded',function(){
         let second_number = parseFloat(document.getElementById('second_number').value); 
 
         let operator = document.getElementById("operation").value
-        console.log(operator)
 
         
         switch (operator){
@@ -27,6 +26,7 @@ document.addEventListener('DOMContentLoaded',function(){
             case 'divide': 
                 formuala_string = first_number + " divided by " + second_number + " equals..."; 
                 result_number = first_number / second_number; 
+                console.log(result_number)
                 break; 
             default: 
                 console.log("Error")
@@ -35,14 +35,12 @@ document.addEventListener('DOMContentLoaded',function(){
 
 
         document.getElementById('formula').textContent = formuala_string; 
-        document.getElementById('results').textContent =result_number;
+        document.getElementById('results').textContent = result_number;
         
 
     }
 )
 }
-
-
 )
 
 

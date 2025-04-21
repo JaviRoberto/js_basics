@@ -2,16 +2,25 @@ body{
     background-color: beige;
 }
 
+select {
+    width: 300px;      /* Set the width */
+    height: 40px;      /* Set the height */
+    font-size: 25px;   /* Make the text bigger */
+    padding: 5px;      /* Optional: add some spacing inside */
+  }
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue; 
+    font-size: 25px;
+    
+  }
+
 
 h3{
     color: rgb(109, 61, 150);
 }
-h1{ color: blue}
 
-input{
-    width: 10%; 
-    padding: 12px 20x; 
-    margin: 8px 0; 
-    box-sizing: border-box;
-
-}

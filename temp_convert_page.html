@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="converter">
+        <select id="converter_selector"> 
+            <option value="c_f">Celsius to Fahrenheit</option>
+            <option value="f_c">Fahrenheit to Celsius</option>
+            <option value="m_k">Miles to Kilometers</option>
+            <option value="k_m">Kilometers to miles</option>
+            <option value="k_p">Kilograms to Pounds</option>
+            <option value="p_k">Pounds to Kilograms</option>
+        </select>
+        <label for="first_converter">first number</label>
+        <input type="text" id="first_converter" name="first_converter"required>  
+
+        <button type="submit">submit</button>
+    </form>
+
+    <h1><span id="results"></span></h1>
+
+    <a href="index.html">Go back to calculator</a>
+
+
+
+    <script src=temp_convert_page.js></script>
+</body>
+</html>
